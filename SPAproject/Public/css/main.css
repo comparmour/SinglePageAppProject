@@ -1,0 +1,64 @@
+#wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height:28px;
+    border: none;
+    z-index: 1000;
+	position: fixed; 
+}
+
+li {
+	display: inline-block;
+}
+
+li button {
+    display: inline-block;
+	background-color: #000000;
+    color: #70ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 250%;
+
+}
+
+li button:hover {
+    background-color: #70ffff;
+	color: #000000;
+}
+
+body {
+    background: url("/images/bg.jpg");
+	background-position: center;
+}
+
+#content{
+	position:fixed;
+	top:0;
+	height:50px;
+	padding-top:100px;
+}
+	
+img {
+    max-width: 50%;
+    width: 20%;
+}
+
+p {
+	color: #70ffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.armoury
+{
+	width: 250px;
+    height: 140px;
+}
+
+#center
+{
+ padding: 70px 0;
+    text-align: center;
+}
