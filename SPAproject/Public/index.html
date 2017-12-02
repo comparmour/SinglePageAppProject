@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>The test page</title>
+<title>XCOM Home</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="/javascript/function.js"></script>
@@ -37,6 +37,14 @@ $(document).ready(function(){
 	$("#armoury").click(function(){
 		$.get("/armoury", function(data, status){
 			$("#content").html(data);
+		});
+	});
+});
+
+$(document).ready(function(){
+	$("#viewsoldiers").click(function(){
+		$.get("/viewsoldiers", function(data, status){
+			$("#soldierlist").html(data);
 		});
 	});
 });
